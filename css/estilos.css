@@ -1,0 +1,141 @@
+/*Fuentes*/
+@font-face {
+    font-family: "nevis";
+    src: url("fonts/nevis.eot");
+    src: url("fonts/nevis.eot?#iefix") format("embedded-opentype");
+    src: url("fonts/nevis.woff") format("woff");
+    src: url("fonts/nevis.ttf") format("truetype");
+    src: url("fonts/nevis.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "fajala";
+    src: url("fonts/FjallaOne-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "icons";
+    src: url("fonts/websymbols-regular-webfont.svg#WebSymbolsRegular") format("svg"),
+    url("fonts/websymbols-regular-webfont.eot");
+    src: url("fonts/websymbols-regular-webfont.eot?#iefix") format("embedded-opentype");
+    src: url("fonts/websymbols-regular-webfont.woff") format("woff");
+    src: url("fonts/websymbols-regular-webfont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Bebas";
+    src: url("fonts/BebasNeue-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    
+    letter-spacing: 0.16rem;
+}
+.container{
+    
+  
+    min-width: 100%;
+    height: 100vh;
+    padding: 0%;
+    justify-content: center;
+}
+.titulo{
+    color: aliceblue;
+    text-align: center;
+    text-shadow:1px 1px 1px black,2px 2px 2px black,4px 4px 3px black,4px 4px 4px black;
+    font-size: 3em;
+    font-family: 'fajala';
+}
+.container_resultado{
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.808),2px 2px 2px rgba(0, 0, 0, 0.596),4px 4px 3px rgba(0, 0, 0, 0.466),4px 4px 4px rgba(0, 0, 0, 0.281);
+    text-align: center;
+    color: antiquewhite;
+    font-size: 2em;
+    margin:2px 0px
+}
+.entrada{
+font-size: 1.2em;
+font-family: 'nevis';
+}
+
+.boton{
+    font-size: 1.5em;
+    border-radius: 10%;
+    background-color: rgb(0, 102, 255);
+}
+.boton{
+    transition: all ease-in-out infinite;
+}
+
+.boton:hover{
+    animation: 0.8s click 1;
+    background-color: rgb(78, 235, 235);
+    transform: scale(1.1);
+    box-shadow: 1px 1px 1px black,2px 2px 3px black,4px 4px 5px black,6px 6px 8px black;
+}
+
+.click{
+    font-family: "Arial";
+	margin: 10px 10px;
+	text-align: center;
+	font-weight: bolder;
+	width: 120px;
+	
+	display: inline-block;
+	vertical-align: middle;
+	color: whitesmoke;
+    letter-spacing: 0;
+    background-color: rgb(117, 59, 119);
+    font-size: "nevis";
+    position: fixed;
+    left: 5%;
+    top: 5%;
+    padding: 1% 1.3%;
+    border-radius: 25%;
+    box-shadow: 1px 1px 1px black,2px 2px 3px black,3px 3px 5px black,4px 4px 8px black;
+	
+}
+
+
+
+
+.click:hover{
+	animation: 0.8s click 1;
+
+}
+
+@keyframes click {
+	0% { 
+		transform: scale(1.0);
+	}
+	20%{
+	transform: scale(0.8);
+
+	}
+	50%{
+		transform: scale(1);
+	}
+	75%{
+		transform: scale(0.8);
+	}
+}
+
+
+
+
+
